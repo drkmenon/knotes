@@ -5,7 +5,7 @@
 
 ## Talking the talk
 
-```{r funnel1, echo=FALSE, fig.cap="Funnel Plot", out.width="100%"}
+```{r funnel1, echo=FALSE, fig.cap="Funnel Plot", out.width="100%",out.width="100%"}
 knitr::include_graphics("image/funnel2.png")
 
 ```
