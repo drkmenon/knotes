@@ -5,7 +5,7 @@
 
 The clinical audit process can be described by “Plan,” “Do,” “Study,” “Act” phases that comprise an audit cycle.
 
-```{r echo=FALSE, fig.cap="*Figure 1:The audit cycle, showing the 4 necessary steps of a complete audit cycle, from planning an audit (“Plan”), to the collection and analysis of data (“Do” and “Study”) and identifying steps leading towards improvement (“Act”). The cycle is intended to be repeated with the goal of continuous improvement. Adapted from Langley et al*"}
+```{r echo=FALSE, fig.cap="*Figure 1:The audit cycle, showing the 4 necessary steps of a complete audit cycle, from planning an audit (“Plan”), to the collection and analysis of data (“Do” and “Study”) and identifying steps leading towards improvement (“Act”). The cycle is intended to be repeated with the goal of continuous improvement. Adapted from Langley et al*",out.width="100%"}
 knitr::include_graphics("image/audit.png")
 
 ```
