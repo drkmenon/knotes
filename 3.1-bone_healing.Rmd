@@ -18,7 +18,7 @@ Skeletal fracture occurs when bone absorbs sufficient energy under mechanical lo
 4. Osteo-progenitor cells. 
 
 This is the basis of **Diamond concept** of healing which we will discuss later.  
-```{r diamond, echo=FALSE, fig.cap="Diamond concept,fracture healing"}
+```{r diamond, echo=FALSE, fig.cap="Diamond concept,fracture healing",out.width="100%"}
 knitr::include_graphics("image/Diamond.png")
 ```
 
@@ -59,7 +59,7 @@ Cortical bone heals by *Osteonal remodeling* by **Osteonal cutting cones** if th
 * No gap
 * Viable bone ends
 
-```{r gap, echo=FALSE, fig.cap="Gap healing"}
+```{r gap, echo=FALSE, fig.cap="Gap healing",out.width="100%"}
 knitr::include_graphics("image/Gap.png")
 ```
 
@@ -70,7 +70,7 @@ knitr::include_graphics("image/Gap.png")
 
 Heals primarily by a mechanism called **bony ingrowth**. Here revascularisation followed by osteoblasts laying down new bone.
 
-```{r ingrowth, echo=FALSE, warning=FALSE, fig.cap="Bone ingrowth"}
+```{r ingrowth, echo=FALSE, warning=FALSE, fig.cap="Bone ingrowth",out.width="100%"}
 knitr::include_graphics("image/ingrowth.png")
 ```
 
@@ -80,7 +80,7 @@ knitr::include_graphics("image/ingrowth.png")
 
 Ham in 1930 published a description of early phases of bone healing after studying fractured rabbit fibulae and ribs. Phases of bone healing was more fully described by **McKibbin in 1978**. In simple terms, bone heals in 3 phases, like any other tissue. 
 
-```{r secondary, echo=FALSE, fig.cap="Secondary healing"}
+```{r secondary, echo=FALSE, fig.cap="Secondary healing",out.width="100%"}
 knitr::include_graphics("image/secondary.png")
 
 ```
@@ -112,7 +112,7 @@ Differentiation of primitive mesenchymal stem cells in to cells with osteogenic 
 * via Osteons  in the cortices.
 * Involves complex interplay of RANK-RANKL
 
-```{r rank, echo=FALSE, warning=FALSE, fig.cap="RANK-RANKL"}
+```{r rank, echo=FALSE, warning=FALSE, fig.cap="RANK-RANKL",out.width="100%"}
 knitr::include_graphics("image/rank.png")
 ```
 
