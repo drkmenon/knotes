@@ -1,5 +1,5 @@
 
-# Funnel plot and its statistical basis
+# Funnel plot
 
 **Introduction**
 
