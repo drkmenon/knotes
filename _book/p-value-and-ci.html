@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 6 p-value and CI | knotes</title>
+<title>Chapter 10 p-value and CI | knotes</title>
 <meta name="author" content="Kishore Puthezhath">
-<meta name="description" content="Figure 6.1: Histogram showing male and female height ploted againt the count  Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and...">
+<meta name="description" content="Figure 10.1: Histogram showing male and female height ploted againt the count  Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 6 p-value and CI | knotes">
+<meta property="og:title" content="Chapter 10 p-value and CI | knotes">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://knotes.co.in/p-value-and-ci.html">
-<meta property="og:description" content="Figure 6.1: Histogram showing male and female height ploted againt the count  Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and...">
+<meta property="og:description" content="Figure 10.1: Histogram showing male and female height ploted againt the count  Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 6 p-value and CI | knotes">
-<meta name="twitter:description" content="Figure 6.1: Histogram showing male and female height ploted againt the count  Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and...">
+<meta name="twitter:title" content="Chapter 10 p-value and CI | knotes">
+<meta name="twitter:description" content="Figure 10.1: Histogram showing male and female height ploted againt the count  Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -42,17 +42,21 @@
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html">About</a></li>
 <li><a class="" href="introduction.html">Introduction</a></li>
-<li><a class="" href="frcs-tr-orth.html"><span class="header-section-number">1</span> FRCS (Tr &amp; Orth)</a></li>
+<li class="book-part">FRCS Tr &amp; Orth</li>
+<li><a class="" href="application.html"><span class="header-section-number">2</span> Application</a></li>
+<li><a class="" href="part-1.html"><span class="header-section-number">3</span> Part 1</a></li>
+<li><a class="" href="part-2.html"><span class="header-section-number">4</span> Part 2</a></li>
+<li><a class="" href="books.html"><span class="header-section-number">5</span> Books</a></li>
 <li class="book-part">Basic Science</li>
-<li><a class="" href="bone-healing..html"><span class="header-section-number">2</span> Bone healing.</a></li>
+<li><a class="" href="bone-healing..html"><span class="header-section-number">6</span> Bone healing.</a></li>
 <li class="book-part">Adult Pathology</li>
-<li><a class="" href="charcot.html"><span class="header-section-number">3</span> Charcot</a></li>
-<li><a class="" href="diabetic-foot.html"><span class="header-section-number">4</span> Diabetic foot</a></li>
+<li><a class="" href="charcot.html"><span class="header-section-number">7</span> Charcot</a></li>
+<li><a class="" href="diabetic-foot.html"><span class="header-section-number">8</span> Diabetic foot</a></li>
 <li class="book-part">Quality</li>
-<li><a class="" href="clinical-audit.html"><span class="header-section-number">5</span> Clinical audit</a></li>
+<li><a class="" href="clinical-audit.html"><span class="header-section-number">9</span> Clinical audit</a></li>
 <li class="book-part">Biometry</li>
-<li><a class="active" href="p-value-and-ci.html"><span class="header-section-number">6</span> p-value and CI</a></li>
-<li><a class="" href="funnel-plot-and-its-statistical-basis.html"><span class="header-section-number">7</span> Funnel plot and its statistical basis</a></li>
+<li><a class="active" href="p-value-and-ci.html"><span class="header-section-number">10</span> p-value and CI</a></li>
+<li><a class="" href="funnel-plot-and-its-statistical-basis.html"><span class="header-section-number">11</span> Funnel plot and its statistical basis</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -61,45 +65,45 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="p-value-and-ci" class="section level1" number="6">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="p-value-and-ci" class="section level1" number="10">
 <h1>
-<span class="header-section-number">6</span> p-value and CI<a class="anchor" aria-label="anchor" href="#p-value-and-ci"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10</span> p-value and CI<a class="anchor" aria-label="anchor" href="#p-value-and-ci"><i class="fas fa-link"></i></a>
 </h1>
 <div class="figure">
 <span style="display:block;" id="fig:unnamed-chunk-3"></span>
 <img src="6.1-p.ci_files/figure-html/unnamed-chunk-3-1.png" alt="Histogram showing  male and female height ploted againt the count" width="672"><p class="caption">
-Figure 6.1: Histogram showing male and female height ploted againt the count
+Figure 10.1: Histogram showing male and female height ploted againt the count
 </p>
 </div>
 <p>Assume that we have a normally distributed population of males and females with a mean height of 168.5444368cms and 157.8109596cms respectively.</p>
 <p>We can see that the mean difference in the height is 10.7334772<br><strong>If I measure the entire population in the world, will I find that the mean height for each sex is different?</strong> or<br><strong>would I find that difference between the mean height is zero?</strong></p>
-<div id="how-to-answer-this-question" class="section level3" number="6.0.1">
+<div id="how-to-answer-this-question" class="section level3" number="10.0.1">
 <h3>
-<span class="header-section-number">6.0.1</span> How to answer this question?<a class="anchor" aria-label="anchor" href="#how-to-answer-this-question"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.0.1</span> How to answer this question?<a class="anchor" aria-label="anchor" href="#how-to-answer-this-question"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="frequentist-method" class="section level2" number="6.1">
+<div id="frequentist-method" class="section level2" number="10.1">
 <h2>
-<span class="header-section-number">6.1</span> Frequentist method<a class="anchor" aria-label="anchor" href="#frequentist-method"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.1</span> Frequentist method<a class="anchor" aria-label="anchor" href="#frequentist-method"><i class="fas fa-link"></i></a>
 </h2>
 <p>Assume a hypothetical world with no difference in the height between the sexes.Do repeated experiments and find out what <code>proportion of times</code> would I obtain a difference between the observed means(ø) in that hypothetical world which is as great as or greater than difference I observed in my real experiment.
 <strong>This proportion of time is abbreviated as <em>p-value</em> </strong></p>
 <p>In other words <em>p-value</em>=P(ø/H), given the null(H), what is the probability of data(ø)</p>
 <p>but <em>p-value</em> is an answer to a question we didn’t intend to ask. So what to do with it?</p>
 </div>
-<div id="traditional-answers" class="section level2" number="6.2">
+<div id="traditional-answers" class="section level2" number="10.2">
 <h2>
-<span class="header-section-number">6.2</span> Traditional Answers<a class="anchor" aria-label="anchor" href="#traditional-answers"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.2</span> Traditional Answers<a class="anchor" aria-label="anchor" href="#traditional-answers"><i class="fas fa-link"></i></a>
 </h2>
-<div id="fisher" class="section level3" number="6.2.1">
+<div id="fisher" class="section level3" number="10.2.1">
 <h3>
-<span class="header-section-number">6.2.1</span> Fisher<a class="anchor" aria-label="anchor" href="#fisher"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.2.1</span> Fisher<a class="anchor" aria-label="anchor" href="#fisher"><i class="fas fa-link"></i></a>
 </h3>
 <p>Treat it as a measure of strength of evidence. This is not objectively satisfactory because, <em>p-value</em>=P(ø/H)≠P(H/ø)</p>
 </div>
-<div id="neyman-pearson-decision-framework" class="section level3" number="6.2.2">
+<div id="neyman-pearson-decision-framework" class="section level3" number="10.2.2">
 <h3>
-<span class="header-section-number">6.2.2</span> Neyman-Pearson decision framework<a class="anchor" aria-label="anchor" href="#neyman-pearson-decision-framework"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.2.2</span> Neyman-Pearson decision framework<a class="anchor" aria-label="anchor" href="#neyman-pearson-decision-framework"><i class="fas fa-link"></i></a>
 </h3>
 <p>In each experiment, if you need to choose between the Null and the alternative, then there is possibility for two types of errors</p>
 <p>False Positive: Choosing the alternative when Null is true</p>
@@ -118,9 +122,9 @@ Figure 6.1: Histogram showing male and female height ploted againt the count
 </blockquote>
 <p>If we refer the statistical charts, p value for a <code>z</code> score of ≤1.96 is ≤0.05</p>
 </div>
-<div id="so-the-decision-framework-is-to" class="section level3" number="6.2.3">
+<div id="so-the-decision-framework-is-to" class="section level3" number="10.2.3">
 <h3>
-<span class="header-section-number">6.2.3</span> So the decision framework is to<a class="anchor" aria-label="anchor" href="#so-the-decision-framework-is-to"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.2.3</span> So the decision framework is to<a class="anchor" aria-label="anchor" href="#so-the-decision-framework-is-to"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>Compute <em>p-value</em>
@@ -132,16 +136,16 @@ Figure 6.1: Histogram showing male and female height ploted againt the count
 <p>Another important concept is <strong>confidence interval</strong></p>
 </div>
 </div>
-<div id="confidence-interval" class="section level2" number="6.3">
+<div id="confidence-interval" class="section level2" number="10.3">
 <h2>
-<span class="header-section-number">6.3</span> Confidence Interval<a class="anchor" aria-label="anchor" href="#confidence-interval"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.3</span> Confidence Interval<a class="anchor" aria-label="anchor" href="#confidence-interval"><i class="fas fa-link"></i></a>
 </h2>
 <p>Under repeated sampling in hypothetical world, 95% of confidence intervals constructed the same way will include the true value of the mean difference.</p>
 <p>It ranges between a fixed value x and y on either side of zero,i.e., <code>x-0-y</code>.</p>
 <p>0-x is the lower confidence limit and 0+y is the upper confidence limit.</p>
-<div id="confidence-limit" class="section level3" number="6.3.1">
+<div id="confidence-limit" class="section level3" number="10.3.1">
 <h3>
-<span class="header-section-number">6.3.1</span> <strong>Confidence limit</strong><a class="anchor" aria-label="anchor" href="#confidence-limit"><i class="fas fa-link"></i></a>
+<span class="header-section-number">10.3.1</span> <strong>Confidence limit</strong><a class="anchor" aria-label="anchor" href="#confidence-limit"><i class="fas fa-link"></i></a>
 </h3>
 <p>This sets the boundary of confidence interval and it is generally taken as 95%.</p>
 <p>confidence interval is generally considered as more important than p value because it gives</p>
@@ -154,24 +158,24 @@ Figure 6.1: Histogram showing male and female height ploted againt the count
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="clinical-audit.html"><span class="header-section-number">5</span> Clinical audit</a></div>
-<div class="next"><a href="funnel-plot-and-its-statistical-basis.html"><span class="header-section-number">7</span> Funnel plot and its statistical basis</a></div>
+<div class="prev"><a href="clinical-audit.html"><span class="header-section-number">9</span> Clinical audit</a></div>
+<div class="next"><a href="funnel-plot-and-its-statistical-basis.html"><span class="header-section-number">11</span> Funnel plot and its statistical basis</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li>
-<a class="nav-link" href="#p-value-and-ci"><span class="header-section-number">6</span> p-value and CI</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#how-to-answer-this-question"><span class="header-section-number">6.0.1</span> How to answer this question?</a></li></ul>
+<a class="nav-link" href="#p-value-and-ci"><span class="header-section-number">10</span> p-value and CI</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#how-to-answer-this-question"><span class="header-section-number">10.0.1</span> How to answer this question?</a></li></ul>
 </li>
-<li><a class="nav-link" href="#frequentist-method"><span class="header-section-number">6.1</span> Frequentist method</a></li>
+<li><a class="nav-link" href="#frequentist-method"><span class="header-section-number">10.1</span> Frequentist method</a></li>
 <li>
-<a class="nav-link" href="#traditional-answers"><span class="header-section-number">6.2</span> Traditional Answers</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#fisher"><span class="header-section-number">6.2.1</span> Fisher</a></li>
-<li><a class="nav-link" href="#neyman-pearson-decision-framework"><span class="header-section-number">6.2.2</span> Neyman-Pearson decision framework</a></li>
-<li><a class="nav-link" href="#so-the-decision-framework-is-to"><span class="header-section-number">6.2.3</span> So the decision framework is to</a></li>
+<a class="nav-link" href="#traditional-answers"><span class="header-section-number">10.2</span> Traditional Answers</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#fisher"><span class="header-section-number">10.2.1</span> Fisher</a></li>
+<li><a class="nav-link" href="#neyman-pearson-decision-framework"><span class="header-section-number">10.2.2</span> Neyman-Pearson decision framework</a></li>
+<li><a class="nav-link" href="#so-the-decision-framework-is-to"><span class="header-section-number">10.2.3</span> So the decision framework is to</a></li>
 </ul>
 </li>
 <li>
-<a class="nav-link" href="#confidence-interval"><span class="header-section-number">6.3</span> Confidence Interval</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#confidence-limit"><span class="header-section-number">6.3.1</span> Confidence limit</a></li></ul>
+<a class="nav-link" href="#confidence-interval"><span class="header-section-number">10.3</span> Confidence Interval</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#confidence-limit"><span class="header-section-number">10.3.1</span> Confidence limit</a></li></ul>
 </li>
 </ul>
 
