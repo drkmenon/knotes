@@ -10,8 +10,8 @@ fig:funnel2
 fig:funnel3
 fig:funnel4
 part-frcs-tr-orth
+frcs-application
 application
-application-1
 examination-pattern
 part-i
 part-1
