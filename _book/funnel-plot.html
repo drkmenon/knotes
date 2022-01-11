@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 11 Funnel plot | knotes</title>
+<meta name="author" content="Kishore Puthezhath">
+<meta name="description" content="Introduction  11.1 Talking the talk   Figure 11.1: Funnel Plot  Doctor,what do you see here? This is called a funnel plot which is a simple scatterplot of the treatment effects (RR or OR)...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 11 Funnel plot | knotes">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://knotes.co.in/funnel-plot.html">
+<meta property="og:description" content="Introduction  11.1 Talking the talk   Figure 11.1: Funnel Plot  Doctor,what do you see here? This is called a funnel plot which is a simple scatterplot of the treatment effects (RR or OR)...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 11 Funnel plot | knotes">
+<meta name="twitter:description" content="Introduction  11.1 Talking the talk   Figure 11.1: Funnel Plot  Doctor,what do you see here? This is called a funnel plot which is a simple scatterplot of the treatment effects (RR or OR)...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">knotes</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li class="book-part">FRCS Tr &amp; Orth</li>
+<li><a class="" href="application.html"><span class="header-section-number">2</span> Application</a></li>
+<li><a class="" href="part-1.html"><span class="header-section-number">3</span> Part 1</a></li>
+<li><a class="" href="part-2.html"><span class="header-section-number">4</span> Part 2</a></li>
+<li><a class="" href="books.html"><span class="header-section-number">5</span> Books</a></li>
+<li class="book-part">Basic Science</li>
+<li><a class="" href="bone-healing..html"><span class="header-section-number">6</span> Bone healing.</a></li>
+<li class="book-part">Adult Pathology</li>
+<li><a class="" href="charcot.html"><span class="header-section-number">7</span> Charcot</a></li>
+<li><a class="" href="diabetic-foot.html"><span class="header-section-number">8</span> Diabetic foot</a></li>
+<li class="book-part">Quality</li>
+<li><a class="" href="clinical-audit.html"><span class="header-section-number">9</span> Clinical audit</a></li>
+<li class="book-part">Biometry</li>
+<li><a class="" href="p-value-and-ci.html"><span class="header-section-number">10</span> p-value and CI</a></li>
+<li><a class="active" href="funnel-plot.html"><span class="header-section-number">11</span> Funnel plot</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/drkmenon/knotes">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="funnel-plot" class="section level1" number="11">
+<h1>
+<span class="header-section-number">11</span> Funnel plot<a class="anchor" aria-label="anchor" href="#funnel-plot"><i class="fas fa-link"></i></a>
+</h1>
+<p><strong>Introduction</strong></p>
+<div id="talking-the-talk" class="section level2" number="11.1">
+<h2>
+<span class="header-section-number">11.1</span> Talking the talk<a class="anchor" aria-label="anchor" href="#talking-the-talk"><i class="fas fa-link"></i></a>
+</h2>
+<div class="figure">
+<span style="display:block;" id="fig:funnel1"></span>
+<img src="image/funnel2.png" alt="Funnel Plot" width="250"><p class="caption">
+Figure 11.1: Funnel Plot
+</p>
+</div>
+<p><strong>Doctor,what do you see here?</strong></p>
+<p>This is called a funnel plot which is a simple scatterplot of the treatment effects (RR or OR) estimated from individual studies (horizontal axis) against the precision of the studies represented by standard error (SE).</p>
+<p>The vertical dotted line shows the estimated combined RR or OR from the meta-analysis. The diagonal dotted lines show the range in which studies should be ideally distributed given the size (and thus precision) of each study. Thus larger (big sample size), more precise (smaller standard error) studies should be closely distributed either side of the pooled effect and smaller studies should be distributed more widely giving the classic inverted symmetrical funnel. If the studies are not distributed randomly (due to sampling error) around the combined RR estimate then some other influence is suggested.</p>
+<div class="figure">
+<span style="display:block;" id="fig:funnel2"></span>
+<img src="image/funnel3.png" alt="Assymetric Funnel Plot" width="250"><p class="caption">
+Figure 11.2: Assymetric Funnel Plot
+</p>
+</div>
+<p><strong>Now what is this?</strong></p>
+<p>This funnel plot shows trials scattered asymmetrically around the pooled RR with smaller trials reporting a greater effect than larger ones.</p>
+<p>Two possible explanations are: smaller trials of lower methodological quality tend to overestimate true effect; <strong>publication bias</strong> has led to the smaller negative trials remaining unpublished.</p>
+<div class="figure">
+<span style="display:block;" id="fig:funnel3"></span>
+<img src="image/funnel4.png" alt="Outliers, Funnel Plot" width="159"><p class="caption">
+Figure 11.3: Outliers, Funnel Plot
+</p>
+</div>
+<p><strong>If so, what is this?</strong></p>
+<p>The funnel plot displays the % of observed 30-day mortality rate of operations on the Y-axis and the total number of operations on the X-axis. A practice lying on the line Y=1 has a surgeon performing close to average, whereas a practice lying above Y=1 has a the total number of operations that is higher than the average.</p>
+<p><strong>Important point</strong></p>
+<p>Funnel plot is used to detect publication bias as well as outliers</p>
+</div>
+<div id="funnel-plot-1" class="section level2" number="11.2">
+<h2>
+<span class="header-section-number">11.2</span> <strong>Funnel plot</strong><a class="anchor" aria-label="anchor" href="#funnel-plot-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>This is a common question for FRCS(Tr &amp; Orth) viva. To understand the concept, we have to give some thought in to the basis of this statistical tool. Let us start from the very base.</p>
+</div>
+<div id="understand-the-concept" class="section level2" number="11.3">
+<h2>
+<span class="header-section-number">11.3</span> Understand the concept<a class="anchor" aria-label="anchor" href="#understand-the-concept"><i class="fas fa-link"></i></a>
+</h2>
+<p>Mean, median, and mode are three kinds of “averages”. There are many “averages” in statistics, but these are most common.</p>
+<p><strong>“mean”</strong> is a statistical “average”, where you add up all the variables and then divide by the number of variables.</p>
+<p>The <strong>“median”</strong> is the <strong>“middle”</strong> value in the list of variables. To find the median, your variables have to be listed in numerical order from smallest to largest, so you may have to rewrite your list before you can find the median.</p>
+<p>The <strong>“mode”</strong> is the value that occurs most often. If no variable in the list is repeated, then there is no mode for the list.</p>
+<p>To understand funnel plot we should also know the statistical concepts of  <em>variance</em> , <em>standard deviation</em> and <em>standard error of mean</em>.</p>
+<div id="variance" class="section level3" number="11.3.1">
+<h3>
+<span class="header-section-number">11.3.1</span> Variance<a class="anchor" aria-label="anchor" href="#variance"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>It is the sum of average squared difference of mean</strong>.</p>
+<p>eg: x~1, x~2, x~3, x~n are a list of <em>n</em> number of values, then mean, x̄ = (x~n + x~1 )/n. Then the <strong>Variance</strong>=Σ (x-x̄)^2/ (n-1).</p>
+</div>
+<div id="standard-deviation" class="section level3" number="11.3.2">
+<h3>
+<span class="header-section-number">11.3.2</span> Standard deviation<a class="anchor" aria-label="anchor" href="#standard-deviation"><i class="fas fa-link"></i></a>
+</h3>
+<p><em>It is the measure of standardized dispersion of data from the mean. It is calculated by taking the square root of variance.</em></p>
+<p>Standard deviation σ = √∑, i.e., standard deviation is the square root of variance.</p>
+<p>Assume that someone is asked to walk on a straight line from point <em>a</em> to point <em>b</em>. The individual steps taken by the person can be equated to standard deviation and the variance is the deviation of the path from the central line.</p>
+<div class="figure">
+<span style="display:block;" id="fig:funnel4"></span>
+<img src="image/funnel.png" alt="walking with variance and sd" width="730"><p class="caption">
+Figure 11.4: walking with variance and sd
+</p>
+</div>
+<p>σ is the sd and Σ is the variance</p>
+<blockquote>
+<p>Unlike standard deviation <strong>variance</strong> can identify the outliers and also shows the spread of the data.</p>
+</blockquote>
+</div>
+</div>
+<div id="standard-error-of-meansem" class="section level2" number="11.4">
+<h2>
+<span class="header-section-number">11.4</span> standard error of mean(SEM)<a class="anchor" aria-label="anchor" href="#standard-error-of-meansem"><i class="fas fa-link"></i></a>
+</h2>
+<p>It is the standard deviation of the sample mean from the population mean.</p>
+<p>Assume that there is a population of 1000 members. In order to study the average height of the population, we have to select a sample size. Also assume that one scientist <em>y</em> started a study with a sample size of 50. He repeated the study for <em>n</em> times. He found that each time the average height found out from the study was different. He calculated the mean value of the height from these <em>n</em> studies and designated it as x̄~1. This x̄~1 is the <strong>sample mean</strong> for his study.</p>
+<p>Another scientist <em>z</em> selected a sample size of 10 and conducted <em>n</em> number of similar study and similarly he also got a sample mean, x̄~2.
+So they decided to find out the actual population mean x̄ by studying the entire population. They also calculated how far the x̄~1 and x̄~2 deviate from x̄. The deviation of x̄~1 was found to be less than x̄~2. This deviation is called <strong>Standard error of mean</strong></p>
+<blockquote>
+<p>when <em>n</em> increases, <strong>standard error of mean</strong> decreases and the precision of the study increases.</p>
+</blockquote>
+<p><strong>This is the basis of funnel plot.</strong></p>
+</div>
+<div id="funnel-plot-concepts" class="section level2" number="11.5">
+<h2>
+<span class="header-section-number">11.5</span> Funnel plot concepts<a class="anchor" aria-label="anchor" href="#funnel-plot-concepts"><i class="fas fa-link"></i></a>
+</h2>
+<p>It is a representation of <strong>SEM</strong> plotted against the true population mean or the no effect line of a study in a graph. Smaller studies tend to have larger SEM and the larger studies will have smaller SEM. Hence the plot assumes a funnel shape. I an ideal world, <strong>funnel plot</strong> is supposed to form a symmetrical “funnel”. This is not the case in real world, because of various reasons.</p>
+<div id="uses-of-funnel-plot" class="section level3" number="11.5.1">
+<h3>
+<span class="header-section-number">11.5.1</span> Uses of funnel plot<a class="anchor" aria-label="anchor" href="#uses-of-funnel-plot"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>To identify outliers. Eg: A surgical resident’s performance</li>
+<li>To identify the validity of a meta-analysis. An asymmetrical funnel plot suggests a potential problem with the results of the meta-analysis.</li>
+</ul>
+</div>
+</div>
+<div id="causes-of-asymmetrical-funnel-plot" class="section level2" number="11.6">
+<h2>
+<span class="header-section-number">11.6</span> Causes of asymmetrical funnel plot<a class="anchor" aria-label="anchor" href="#causes-of-asymmetrical-funnel-plot"><i class="fas fa-link"></i></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li>Reporting bias
+<ul>
+<li>Reporting bias
+<ul>
+<li>Publication bias: Delayed reporting, language bias, duplication)</li>
+<li>Selective outcome reporting</li>
+<li>Selective analysis reporting</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Poor methodology
+<ul>
+<li>Design</li>
+<li>Analysis</li>
+<li>Fraud</li>
+</ul>
+</li>
+<li>Heterogeneity</li>
+<li>Chance</li>
+</ol>
+</div>
+<div id="heterogeneity" class="section level2" number="11.7">
+<h2>
+<span class="header-section-number">11.7</span> Heterogeneity<a class="anchor" aria-label="anchor" href="#heterogeneity"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Variations over and above that is expected by chance</strong></p>
+<p>predicts whether the data from different studies can be combined for meta-analysis to obtain a forest plot.
+### Causes
+|Clinical|Statistical|
+|-|-|
+|Difference in the population|Individual results are inconsistent |
+|Difference in the study design|Difference in size of benefit |
+|Difference in intervention|Difference in size of harm|
+|Difference in outcome| |
+|Always present| |
+|Cannot be statistically evaluated |Can be evaluated statistically|</p>
+</div>
+<div id="detecting-heterogeneity" class="section level2" number="11.8">
+<h2>
+<span class="header-section-number">11.8</span> Detecting Heterogeneity<a class="anchor" aria-label="anchor" href="#detecting-heterogeneity"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>Review the table describing individual studies</li>
+<li>“eye ball test”, review the forest plot</li>
+<li>Review the statistical tests</li>
+<li>Statistical tests</li>
+</ul>
+</div>
+<div id="statistical-tests-for-detecting-heterogeneity" class="section level2" number="11.9">
+<h2>
+<span class="header-section-number">11.9</span> Statistical tests for detecting heterogeneity<a class="anchor" aria-label="anchor" href="#statistical-tests-for-detecting-heterogeneity"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>Tests for its presence: Chi Square test, p&gt;0.1 means study is homogenous</li>
+<li>Test to quantify: I^2
+<ul>
+<li>It measures the % of heterogeneity (≤25%––low, 50%––moderate, ≥75%––high)</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="analysis-of-cause-of-heterogeneity" class="section level2" number="11.10">
+<h2>
+<span class="header-section-number">11.10</span> Analysis of cause of heterogeneity<a class="anchor" aria-label="anchor" href="#analysis-of-cause-of-heterogeneity"><i class="fas fa-link"></i></a>
+</h2>
+<p>Once heterogeneity is identified and quantified, he have to analyze and find out why it is present</p>
+<div id="this-is-done-by" class="section level3" number="11.10.1">
+<h3>
+<span class="header-section-number">11.10.1</span> This is done by<a class="anchor" aria-label="anchor" href="#this-is-done-by"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>subgroup analysis</li>
+<li>Metaregression</li>
+</ul>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="p-value-and-ci.html"><span class="header-section-number">10</span> p-value and CI</a></div>
+<div class="next"><a href="references.html">References</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#funnel-plot"><span class="header-section-number">11</span> Funnel plot</a></li>
+<li><a class="nav-link" href="#talking-the-talk"><span class="header-section-number">11.1</span> Talking the talk</a></li>
+<li><a class="nav-link" href="#funnel-plot-1"><span class="header-section-number">11.2</span> Funnel plot</a></li>
+<li>
+<a class="nav-link" href="#understand-the-concept"><span class="header-section-number">11.3</span> Understand the concept</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#variance"><span class="header-section-number">11.3.1</span> Variance</a></li>
+<li><a class="nav-link" href="#standard-deviation"><span class="header-section-number">11.3.2</span> Standard deviation</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#standard-error-of-meansem"><span class="header-section-number">11.4</span> standard error of mean(SEM)</a></li>
+<li>
+<a class="nav-link" href="#funnel-plot-concepts"><span class="header-section-number">11.5</span> Funnel plot concepts</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#uses-of-funnel-plot"><span class="header-section-number">11.5.1</span> Uses of funnel plot</a></li></ul>
+</li>
+<li><a class="nav-link" href="#causes-of-asymmetrical-funnel-plot"><span class="header-section-number">11.6</span> Causes of asymmetrical funnel plot</a></li>
+<li><a class="nav-link" href="#heterogeneity"><span class="header-section-number">11.7</span> Heterogeneity</a></li>
+<li><a class="nav-link" href="#detecting-heterogeneity"><span class="header-section-number">11.8</span> Detecting Heterogeneity</a></li>
+<li><a class="nav-link" href="#statistical-tests-for-detecting-heterogeneity"><span class="header-section-number">11.9</span> Statistical tests for detecting heterogeneity</a></li>
+<li>
+<a class="nav-link" href="#analysis-of-cause-of-heterogeneity"><span class="header-section-number">11.10</span> Analysis of cause of heterogeneity</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#this-is-done-by"><span class="header-section-number">11.10.1</span> This is done by</a></li></ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/drkmenon/knotes/blob/master/6.9-funnel.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/drkmenon/knotes/edit/master/6.9-funnel.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>knotes</strong>" was written by Kishore Puthezhath. It was last built on 2022-01-11.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

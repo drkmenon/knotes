@@ -9,7 +9,6 @@ fig:funnel1
 fig:funnel2
 fig:funnel3
 fig:funnel4
-a-section
 part-frcs-tr-orth
 application
 application-1
@@ -37,7 +36,7 @@ viva-day-2
 dress-code
 result
 book-review
-introduction-1
+introduction
 useful-websites
 part-1-1
 www.orthobullets.com
@@ -55,7 +54,7 @@ adjutants
 conclusions
 books
 book-review-1
-introduction-2
+introduction-1
 useful-websites-1
 part-1-2
 www.orthobullets.com-1
@@ -124,9 +123,9 @@ neyman-pearson-decision-framework
 so-the-decision-framework-is-to
 confidence-interval
 confidence-limit
-funnel-plot-and-its-statistical-basis
-talking-the-talk
 funnel-plot
+talking-the-talk
+funnel-plot-1
 understand-the-concept
 variance
 standard-deviation
