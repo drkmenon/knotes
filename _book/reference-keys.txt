@@ -134,6 +134,7 @@ funnel-plot-concepts
 uses-of-funnel-plot
 causes-of-asymmetrical-funnel-plot
 heterogeneity
+causes-1
 detecting-heterogeneity
 statistical-tests-for-detecting-heterogeneity
 analysis-of-cause-of-heterogeneity
