@@ -15,9 +15,9 @@ library(tidyverse)
 ```{r echo=FALSE, fig.cap="Histogram showing  male and female height ploted againt the count", out.width="100%"}
 mf %>% 
 ggplot()+
-  geom_histogram(mapping = aes(m
+  geom_histogram(mapping = aes(m, colour="male"
               ),position = 'identity',bins=70, alpha=.5, )+
-  geom_histogram(mapping = aes(f
+  geom_histogram(mapping = aes(f,colour="female"
               ),position = 'identity',bins = 70, alpha=.5)+xlab("People")
 ```
 
