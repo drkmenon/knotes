@@ -3,7 +3,7 @@
 Cochrane Collaboration  is an independent, diverse, global organization that collaborates to produce trusted synthesized evidence, make it accessible to all, and advocate for its use. Their work is internationally recognized as the benchmark for high-quality information about the effectiveness of health care.
 The presentation is based on the synthesized evidence available in the Cochrane library.
 
-```{r out.height= "4000px",out.width='100%', echo=F}
-knitr::include_graphics("image/Arthrocon.pdf")
+```{r echo=FALSE, out.width="100%"}
+knitr::include_url("https://youtu.be/LsqJsDs-a6M")
 ```
 
