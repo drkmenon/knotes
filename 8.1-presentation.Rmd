@@ -4,7 +4,7 @@ Cochrane Collaboration  is an independent, diverse, global organization that col
 The presentation is based on the synthesized evidence available in the Cochrane library.
 
 
-```{r, echo=FALSE}
-xfun::embed_file("image/arthrocon.pdf")
+```{r, echo=FALSE, out.width="100%", out.height="480px"}
+knitr::include_graphics("image/arthrocon.pdf")
 ```
 
