@@ -4,6 +4,7 @@ fig:ingrowth
 fig:secondary
 fig:rank
 fig:unnamed-chunk-1
+fig:unnamed-chunk-2
 fig:unnamed-chunk-3
 fig:funnel1
 fig:funnel2
@@ -69,6 +70,15 @@ secondary-bone-healing
 phases-of-bone-healing
 soft-and-hard-callus.
 remodelling
+action-potential
+action-potential-for-viva-station
+articular-cartilage
+femoral-head-supply
+brachial-plexus
+carpal-tunnel
+cement
+motion-segment
+femoral-teardrop
 charcot
 definition
 clinical-features

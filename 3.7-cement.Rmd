@@ -1,0 +1,5 @@
+# Cement
+
+```{r echo=FALSE,out.width="100%", fig.cap="Curing of bone cement "}
+knitr::include_graphics("image/cement.PNG")
+```

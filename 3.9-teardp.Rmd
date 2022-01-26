@@ -1,0 +1,5 @@
+# Femoral teardrop
+
+```{r echo=FALSE,out.width="100%", fig.cap="Tear drop and lines"}
+knitr::include_graphics("image/teardp.PNG")
+```
