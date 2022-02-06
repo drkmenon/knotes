@@ -1,6 +1,6 @@
 # Spinal cord
 
-```{r echo=FALSE,out.width="100%", fig.cap="Brachial Plexus"}
+```{r echo=FALSE,out.width="100%", fig.cap="Spinal cord cross section"}
 knitr::include_graphics("image/spcd.png")
 ```
 
