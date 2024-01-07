@@ -90,3 +90,4 @@ detecting-heterogeneity
 statistical-tests-for-detecting-heterogeneity
 analysis-of-cause-of-heterogeneity
 this-is-done-by
+pharma-and-health
