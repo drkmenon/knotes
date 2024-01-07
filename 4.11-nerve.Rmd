@@ -1,4 +1,0 @@
-# Nerve
-```{r echo=FALSE,out.width="100%", fig.cap="nerve"}
-knitr::include_graphics("image/nerve.PNG")
-```

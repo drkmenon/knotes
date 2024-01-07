@@ -1,5 +1,0 @@
-# Articular cartilage
-
-```{r echo=FALSE,out.width="100%", fig.cap="Articular cartilage"}
-knitr::include_graphics("image/artc.PNG")
-```

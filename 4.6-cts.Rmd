@@ -1,9 +1,0 @@
-# Carpal Tunnel
-
-```{r echo=FALSE,out.width="100%", fig.cap="Carpal tunnel incision"}
-knitr::include_graphics("image/cts2.PNG")
-```
-
-```{r echo=FALSE,out.width="100%", fig.cap="Carpal tunnel contents"}
-knitr::include_graphics("image/cts.PNG")
-```
