@@ -18,10 +18,9 @@ secondary-bone-healing
 phases-of-bone-healing
 soft-and-hard-callus.
 remodelling
+action-potential
 spinal-cord
 nerve
-action-potential
-action-potential-for-viva-station
 articular-cartilage
 femoral-head-supply
 brachial-plexus

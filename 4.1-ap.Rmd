@@ -1,6 +1,6 @@
-# Action Potential
+# (PART) Basic Science Diagrams{-}
 
-## Action potential for viva station
+# Action potential
 
 ```{r echo=FALSE,out.width="100%", fig.cap="Action Potential"}
 knitr::include_graphics("image/ap.PNG")
