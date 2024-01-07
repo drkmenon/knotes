@@ -1,7 +1,7 @@
 bookdown::bs4_book:
   css: bs4_style.css
   theme:
-    primary: "#0567F8"
+    primary: "#096B72"
   repo: https://github.com/drkmenon/knotes
 bookdown::pdf_book:
   includes:

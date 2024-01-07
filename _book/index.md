@@ -15,7 +15,7 @@ github-repo: drkmenon/knotes
 
 # About {-}
 
-This is a   **compilation of  notes and thoughts which I have build up over the years**. This mainly include topics related to Biometry, Orthopaedics, Medical education and general experiences. 
+This compilation represents a collection of notes and insights I have gathered over the years, primarily focusing on topics related to Biometry, Orthopaedics, Medical Education, Health economics and my general experiences in the field. It serves as a reflection of my journey and learning in these areas, encapsulating both the technical aspects of these subjects and the practical experiences I have encountered.
 
 ## Contents {-}
 
