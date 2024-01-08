@@ -75,6 +75,7 @@ do
 study
 act
 audit-is-not-research
+research-methodology
 p-value-and-ci
 how-to-answer-this-question
 frequentist-method
@@ -100,4 +101,5 @@ detecting-heterogeneity
 statistical-tests-for-detecting-heterogeneity
 analysis-of-cause-of-heterogeneity
 this-is-done-by
-pharma-and-health
+health-economics
+impact-funds

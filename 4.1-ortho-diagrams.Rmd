@@ -1,4 +1,3 @@
-# (PART) Orthopaedic Diagrams{-}
 # Diagrams for viva
 
 ## Action potential
