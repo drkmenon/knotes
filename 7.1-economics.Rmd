@@ -1,9 +1,7 @@
-# (PART) Economics {-}
+# (PART) Economics {.unnumbered}
+
 # Health economics
 
 ## Impact funds
 
-
-^2^
-
-
+Let's embark on a thought experiment involving two cities: Pharma City and Social City, each with an identical population of 1,000 residents. In both cities, five individuals have contracted a novel disease characterized by watery diarrhea, known as Cholera. A pharmaceutical company has developed an innovative treatment, named ORS, with a treatment course priced at \$84,000. Concurrently, another research has identified the root cause of the infection: contaminated water supply. Addressing the water quality issue involves an expense of \$420 per person. With a budget of \$420,000 at your disposal, you face a decision: allocate this amount as a Pharma Impact Fund in Pharma City or as a Global Impact Fund in Social City. Which city would you choose to assist?
