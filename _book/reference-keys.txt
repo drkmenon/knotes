@@ -57,6 +57,14 @@ deformity-management
 ac-presentations-that-need-surgery
 chronic-deformities
 principles
+tuberculosis-of-locomotor-system
+diagnosis
+naat
+culture
+hpe
+treatment
+indications-for-surgery
+follow-up
 diagrams-for-viva
 action-potential
 articular-cartilage
