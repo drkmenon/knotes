@@ -15,7 +15,9 @@ github-repo: drkmenon/knotes
 
 # About {-}
 
-I, Kishore Puthezhath MS Ortho, D Ortho, FACS (USA), FRCS (Tr & Orth)(Eng) am a Professor of Orthopaedics under KUHS. I am  currently pursuing my PhD in orthopaedics and my research interests include fracture healing and cross talk between brain and bone. I lead the Paediatric Orthopaedic Surgery in a tertiary teaching hospital in Kerala.
+Kishore Puthezhath MS Ortho, D Ortho, FACS (USA), FRCS (Tr & Orth)(Eng) 
+
+I am a Professor of Orthopaedics under KUHS. Currently pursuing my PhD in orthopaedics and my research interests include fracture healing and cross talk between brain and bone. I lead the Paediatric Orthopaedic Surgery in a tertiary teaching hospital in Kerala.
 
 This compilation represents a collection of notes and insights I have gathered over the years, primarily focusing on topics related to Biometry, Orthopaedics, Medical Education, Health economics and my general experiences in the field. It serves as a reflection of my journey and learning in these areas, encapsulating both the technical aspects of these subjects and the practical experiences I have encountered.
 
