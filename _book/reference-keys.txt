@@ -65,6 +65,8 @@ hpe
 treatment
 indications-for-surgery
 follow-up
+osteoporosis
+definition-1
 diagrams-for-viva
 action-potential
 articular-cartilage
@@ -111,3 +113,5 @@ analysis-of-cause-of-heterogeneity
 this-is-done-by
 health-economics
 impact-funds
+osteosarcopenia
+the-silent-geriatric-giant
