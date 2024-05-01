@@ -25,6 +25,7 @@ mf %>%
 
 
 ```{r include=FALSE}
+
 mm= mean(m)
 mf= mean(f)
 htdif=mean(m)-mean(f)
